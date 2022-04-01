@@ -10,7 +10,8 @@ export const get: RequestHandler = async ({ locals }) => {
 		// start with an empty array
 		return {
 			body: {
-				todos: []
+				todos: [],
+				status: 'ok'
 			}
 		};
 	}
